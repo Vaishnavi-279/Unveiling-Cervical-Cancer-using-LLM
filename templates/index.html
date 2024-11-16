@@ -1,0 +1,19 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
+    <title>Cervical Cancer Prediction</title>
+</head>
+
+<body>
+    <h2>Upload a PDB File for Cervical Cancer Prediction</h2>
+    <form action="/predict" method="post" enctype="multipart/form-data">
+        <input type="file" name="pdb_file" required>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
