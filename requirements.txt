@@ -1,0 +1,5 @@
+Flask
+numpy
+scikit-learn
+some_embedding_library  # Placeholder for your embedding library
+some_contact_map_library  # Placeholder for contact map calculation library
